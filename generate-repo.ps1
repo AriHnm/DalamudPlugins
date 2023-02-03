@@ -53,3 +53,4 @@ Set-Content -Path "repo.json" -Value $pluginJson
 function ExitWithCode($code) {
   $host.SetShouldExit($code)
   exit $code
+  }
